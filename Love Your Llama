@@ -1,0 +1,3 @@
+a = list(map(int,input().strip().split()))[:7]
+a.sort()
+print(a[6]-a[0])
